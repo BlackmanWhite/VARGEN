@@ -3,6 +3,9 @@
 #include "../Interfaces.h"
 #include "../SDK/Entity.h"
 
+float bruhMoment = 95.25;
+int nigra = 500315;
+
 void SkinChanger::Execute(int stage) noexcept
 {
 	if (stage == FrameStage::NET_UPDATE_POSTDATAUPDATE_START)
